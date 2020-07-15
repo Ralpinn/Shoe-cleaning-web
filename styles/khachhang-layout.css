@@ -1,0 +1,39 @@
+/* Chỉnh sửa container trang web khach hang */
+.container-khachhang{
+    padding-top:60px;
+}
+
+.container-khachhang >h3{
+    margin-top: 5rem;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.grid-container-khachhang{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding-left: 100px;
+}
+.service-detail > a > img {
+    width:250px;
+    height:200px;
+}
+.service-detail>p{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.grid-service{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.service-detail {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding:25px;
+}
+

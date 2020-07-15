@@ -1,0 +1,46 @@
+/* Chỉnh sửa container dịch vụ */
+.container-service-vesinh{
+    padding-top:70px;
+}
+
+.container-service-vesinh >h3{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.grid-container-servie{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: 1;
+}
+.grid-service{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.service-detail {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding:20px;
+}
+.service-detail button{
+    width:15rem;
+    height:2.5rem;
+    align-self: center;
+    margin-top: 25px;
+    border: 2px solid #110b0b;
+    border-radius: 20px;
+}
+
+.service-detail  > img {
+    width:300px;
+    height:200px;
+}
+
+.service-detail > a > button:hover{
+   background-color: #525252;
+}
